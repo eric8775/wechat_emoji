@@ -10,4 +10,4 @@
 ``` javascript
 var new_content = $('.nickname').html().emoji();
     $('.nickname').html(new_content);
-···
+```
