@@ -1541,7 +1541,6 @@ String.prototype.emoji=function(){
         while(-1!=string.indexOf(icon_text))
         {
             string=string.replace(icon_text,'<span class="emoji emoji'+emoji_utf8[icon_text]+'"></span>');
-            console.log("ok",string);
         }
     }
 
